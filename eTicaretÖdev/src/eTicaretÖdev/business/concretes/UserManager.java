@@ -55,7 +55,7 @@ public class UserManager implements UserService{
 	@Override
 	public List<User> getAll() {
 		for (User user : userDao.getAll()) {
-			System.out.println(user.getFirstName()+ " "+ user.getLastName()+" "+user.geteMail());
+			System.out.println(user.getFirstName()+ " "+ user.getLastName()+"  "+user.geteMail());
 			
 		}
 		return userDao.getAll();
